@@ -290,7 +290,7 @@ ggplot(data = posnegtime, aes(x = as.Date(datetime), y = meanvalue, group = sent
 #write.csv(Location, "Unique location.csv", row.names = FALSE) 
 #city <- read.csv("Unique location.csv", header=TRUE, stringsAsFactors = FALSE)
 #city <- city[complete.cases(city$City), ]
-#register_google(key = "AIzaSyAxlF7p9YrstswfX24G2HXO2i04lvs5_2k")
+#register_google(key = "xxxx")
 #for(i in 1:nrow(city)){
 #  result <- geocode(city$City[i], output = "latlona" , source = "google")
 #  city$lon[i] <- as.numeric(result[1])
