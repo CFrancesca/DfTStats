@@ -1,3 +1,5 @@
+#Author: Francesca Corvaglia
+
 library(rtweet)
 library(twitteR)
 library(ggplot2)
